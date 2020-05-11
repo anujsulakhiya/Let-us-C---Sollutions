@@ -2,8 +2,8 @@
 
 int main(){
 
-int Sub1,Sub2,Sub3,Sub4,Sub5,AM,PER;
-
+int Sub1,Sub2,Sub3,Sub4,Sub5;
+float AM,PER;
 printf("Enter marks obtained in Subjects");
 
 scanf("%d%d%d%d%d",&Sub1,&Sub2,&Sub3,&Sub4,&Sub5);
