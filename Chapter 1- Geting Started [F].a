@@ -1,7 +1,12 @@
+
 #include <stdio.h>
+
 Int main(){
 /*basic=basic salary,gross=gross salary,hra=house rent allowance,da=dearness allowance*/
+
 Float basic, gross, hra, da;
+
+hra=0.20,da=0.40;
 
 printf("Enter the basic salary of ramesh %f",basic);
 
