@@ -6,7 +6,7 @@ int Sub1,Sub2,Sub3,Sub4,Sub5,AM,PER;
 
 printf("Enter marks obtained in Subjects");
 
-scanf("%d",&Sub1,&Sub2,&Sub3,&Sub4,&Sub);
+scanf("%d",&Sub1,&Sub2,&Sub3,&Sub4,&Sub5);
 
 AM=(Sub1+Sub2+Sub3+Sub4+Sub5)/5;
 
