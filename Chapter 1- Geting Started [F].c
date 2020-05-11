@@ -1,21 +1,26 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main(){
+int main()
+{
+  float p,m,c,e,h,am,per;
 
-int Sub1,Sub2,Sub3,Sub4,Sub5;
-float AM,PER;
-printf("Enter marks obtained in Subjects");
+  printf("Enter Marks in Physics:");
+  scanf("%f",&p);
 
-scanf("%d%d%d%d%d",&Sub1,&Sub2,&Sub3,&Sub4,&Sub5);
+  printf("Enter Marks in Mathematics:");
+  scanf("%f",&m);
 
-AM=(Sub1+Sub2+Sub3+Sub4+Sub5)/5;
+  printf("Enter Marks in Chemistry:");
+  scanf("%f",&c);
 
-  printf("%f Agrigate marks obtained in subjects is",AM);
+  printf("Enter Marks in English:");
+  scanf("%f",&e);
 
-  PER=(Sub1+Sub2+Sub3+Sub4+Sub5)/500*100;
-  
-printf("%f Total percentage obtained by student",PER);
- 
-return 0;
+  printf("Enter Marks in hindi:");
+  scanf("%f",&h);
 
+  am=(p+m+c+e+h)/5;
+  per=((p+m+c+e+h)/500)*100;
+  printf(" Aggregate Marks: %f\n Percentage: %f",am,per);
+  return 0;
 }
