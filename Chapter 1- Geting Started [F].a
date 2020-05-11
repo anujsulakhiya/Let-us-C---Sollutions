@@ -1,0 +1,15 @@
+#include <stdio.h>
+Int main(){
+/*basic=basic salary,gross=gross salary,hra=house rent allowance,da=dearness allowance*/
+Float basic, gross, hra, da;
+
+printf("Enter the basic salary of ramesh %f",basic);
+
+scanf("%f",&basic);
+
+/*formulato calculate gross salary*/
+
+gross = basic + hra + da;
+
+return 0;
+}
