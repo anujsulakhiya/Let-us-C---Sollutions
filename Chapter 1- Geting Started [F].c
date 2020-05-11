@@ -15,7 +15,7 @@ AM=(Sub1+Sub2+Sub3+Sub4+Sub5)/5;
   PER=(Sub1+Sub2+Sub3+Sub4+Sub5)/500*100;
   
 printf("%d Total percentage obtained by student",PER);
-  printf("")
+ 
 return 0;
 
 }
